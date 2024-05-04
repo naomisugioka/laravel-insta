@@ -74,7 +74,7 @@
             </div>
             <div class="col">
                 <div class="col-auto">
-                    <a href="" class="text-decoration-none text-dark fw-bold h6"></a>
+                    <a href="{{ route('home.suggest',$user->id)}}" class="text-decoration-none text-dark fw-bold h6">See All</a>
                 </div>
             </div>
             @foreach($suggested_users as $user)
